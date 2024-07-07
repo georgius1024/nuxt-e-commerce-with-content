@@ -1,0 +1,21 @@
+$enable-rounded: false;
+$primary: #0066B0;
+$secondary: #223639;
+@import "bootstrap/scss/bootstrap";
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hover-up {
+  &:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 4px 4px #777;
+    transition: 400ms ease;
+  }
+}
