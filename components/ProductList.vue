@@ -16,7 +16,6 @@
       required: true,
     },
   });
-  const router = useRouter();
 
   const navigate = (id) => {
     const product = props.products.find(e => e.id === id)
